@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/escolhaComputador"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text=""/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/number1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="1"/>
+
+        <TextView
+            android:id="@+id/number2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="2"/>
+
+        <TextView
+            android:id="@+id/number3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="3"/>
+
+        <TextView
+            android:id="@+id/number4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="4"/>
+
+        <TextView
+            android:id="@+id/number5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="5"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonPar"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Par"/>
+
+    <Button
+        android:id="@+id/buttonImpar"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Impar"/>
+
+    <TextView
+        android:id="@+id/textoFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+</LinearLayout>
